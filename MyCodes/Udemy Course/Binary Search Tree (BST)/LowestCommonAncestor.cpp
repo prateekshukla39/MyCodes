@@ -20,7 +20,7 @@ node* lca(node*root, int a, int b)
     // Base case
     if (root == NULL)
 		return NULL;
-	if (root->data == a or root->data == b) 
+	if(root -> data == a or root -> data == b) 
 		return root;
     // Recursive cases
     if(a < root -> data && b < root -> data)
